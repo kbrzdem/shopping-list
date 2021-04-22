@@ -31,7 +31,7 @@ body{
   background:rgba(213, 130, 230, 0.801);
   border: 2px solid rgb(182, 82, 221);
   cursor: pointer;
-  transition:background .5s ease-in;
+  transition: background .5s ease-in;
 }
 input{
   border: 2px solid rgba(193, 116, 223, 0.295);
