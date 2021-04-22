@@ -1,1 +1,1 @@
-![Optional Text](./list.png)
+![sayfa görünümü](./list.png)
