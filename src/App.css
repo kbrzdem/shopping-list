@@ -16,15 +16,22 @@ body{
 }
 .btn{
   background:rgba(213, 130, 230, 0.562);
-  border: 1px solid rgb(193, 116, 223);
+  border: 2px solid rgb(193, 116, 223);
   border-radius: 5px;
   color: rgb(45, 0, 56);
-  cursor: pointer;
+  
   font-size: 16px;
   padding:5px;
   padding-left: 10px;
   padding-right: 10px;
   
+}
+.btn:hover{
+  
+  background:rgba(213, 130, 230, 0.801);
+  border: 2px solid rgb(182, 82, 221);
+  cursor: pointer;
+  transition:background .5s ease-in;
 }
 input{
   border: 2px solid rgba(193, 116, 223, 0.295);
