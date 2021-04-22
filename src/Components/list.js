@@ -67,7 +67,7 @@ const List = () => {
                                     <td>{todo.todo}</td>
                                     <td>
                                         <button
-                                            className="btn btn-danger"
+                                            className="btn"
                                             onClick={() => deleteTodo(todo.id)}
                                         >
                                             {" "}
