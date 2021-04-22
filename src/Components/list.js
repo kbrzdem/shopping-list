@@ -40,7 +40,6 @@ const List = () => {
              
                 <h1>Add Shopping List</h1>
                     <table className="table">
-                        
                         <thead>
                             <tr>
                                 <th>
@@ -49,8 +48,8 @@ const List = () => {
                                 <th>
                                     <button className="btn" onClick={onAddTodo}>
                                         {" "}
-                  Add
-                </button>
+                                        Add
+                                    </button>
                                 </th>
                             </tr>
                         </thead>
@@ -71,7 +70,7 @@ const List = () => {
                                             onClick={() => deleteTodo(todo.id)}
                                         >
                                             {" "}
-                    Delete{" "}
+                                            Delete{" "}
                                         </button>{" "}
                                     </td>
                                 </tr>
