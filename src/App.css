@@ -1,38 +1,55 @@
 .App {
   text-align: center;
 }
+body{
+  padding-top: 100px;
+  font-family: "roboto", sans-serif;
+  background: linear-gradient(rgba(136, 49, 207, 0.096),#f800ec1f);
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Slist {
+  margin-right:110px ;
+  margin-left: 110px;
+  border: 1px solid rgba(193, 116, 223, 0.74);
+  border-radius: 3px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn{
+  background:rgba(213, 130, 230, 0.562);
+  border: 1px solid rgb(193, 116, 223);
+}
+input{
+  border: 2px solid rgba(193, 116, 223, 0.295);
+  border-radius: 3px;
+  font-size: 18px;
+  height: 32px;
+  line-height:20px;
+  text-decoration: none;
+  width: 100%;
+}
+table{
+  width:100%;
+  padding:5px
+}
+input:focus{
+  outline: 0;
+  color: black;
+}
+h1 {
+  background: linear-gradient(rgba(136, 49, 207, 0.733),#f800ec91);
   color: white;
+  margin: auto;
+  text-align: center;
+  padding:5px;
 }
 
-.App-link {
-  color: #61dafb;
+.mylist{
+  color: rgb(134, 4, 134);
+  line-height:30px;
+  font-size:22px ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list td{
+ color:rgb(78, 5, 100);
+ font-size: 18px;
 }
