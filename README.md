@@ -1,1 +1,1 @@
-![sayfa görünümü](./list.png)
+
